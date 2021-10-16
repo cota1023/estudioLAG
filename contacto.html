@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header-banner">
+
+        <nav class="header-banner__navbar">
+            <a href="index.html"><img class="header-banner__navbar--logo" src="./img/logo.png" alt="logo"></a>
+            <ul class="header-banner__navbar--principal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="noticias.html">Últimas noticias</a></li>
+                <li><a href="clientes.html">Emprendedores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <hr>
+
+    <!--Section1-->
+    <section class="section-contacto">
+        <h1>Contacto</h1>
+        <br>
+        <form action="">
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" placeholder="Ingresá tu nombre" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono: </label>
+                    <input type="tel" id="telefono" placeholder="Ingresá tu teléfono" required>
+                </div>
+                <div>
+                    <label for="mail">E-Mail: </label>
+                    <input type="email" id="mail" placeholder="Ingresá tu e-mail" required>
+                </div>
+
+                <div>
+                    <label for="categoria">Ud es: </label>
+                    <select id="categoria" required>
+                        <option value="F">Persona física</option>
+                        <option value="J">Persona jurídica</option>
+                        <option value="O" selected>Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pais">País de residencia: </label> <br>
+                    
+                    <label for="argentina">Argentina</label>
+                    <input type="radio" name="pais" id="argentina">
+
+                    <label for="uruguay">Uruguay</label>
+                    <input type="radio" name="pais" id="uruguay">
+                    
+                    <label for="brasil">Brasil</label>
+                    <input type="radio" name="pais" id="brasil">
+
+                    <label for="otro">Otro</label>
+                    <input type="radio" name="pais" id="otro">
+
+                </div>
+                <div>
+                    <label for="mcontacto">Forma de contacto: </label> <br>
+                    <input type="checkbox" id="mcontacto" value="m">Mail
+                    <input type="checkbox" id="mcontacto" value="t">Teléfono
+                </div>
+                <div>
+                    <label for="consulta">Ingrese su consulta:</label>
+                    <textarea id="consulta" cols="30" rows="10" required></textarea>
+                </div>
+                <input class="botones" type="submit" name="" id="">
+                <input class="botones" type="reset">
+
+            </fieldset>
+        </form>
+
+    </section>
+
+</body>
+
+</html>
