@@ -186,4 +186,15 @@ padding-bottom: 2rem;
 .footer_titulo{
     padding-top: 3rem;
     padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-contacto__li a{
+    text-decoration: none;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    color: black;
+}
+
+.footer-contacto__li{
 }
