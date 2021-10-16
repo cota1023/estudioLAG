@@ -189,15 +189,15 @@ background-color: #B81C04;
     text-align: center;
     font-size: 4rem;
     padding-top: 8rem;
-    color:#5c5c5c;
+    color:black;
 
 }
 
 
-/* footer */
+/* FOOTER */
 
 .footer{
-    background-image: linear-gradient(to bottom, #A3BDC2, #45656b );
+    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c );
     display: flex;
     flex-direction: column;
 }
@@ -208,7 +208,7 @@ background-color: #B81C04;
     align-self: flex-start;
     padding-bottom: 2rem;
     text-transform: uppercase;
-    color: #4E4E50;
+    color: whitesmoke;
 }
 
 .footer-contacto__li a{
@@ -216,7 +216,7 @@ background-color: #B81C04;
     font-size: 1rem;
     padding-right: 1rem;
     padding-left:3rem;
-    color: #4E4E50;
+    color:whitesmoke;
 }
 
 .footer-derechos{
@@ -232,4 +232,112 @@ background-color: #B81C04;
     padding-top: 4rem;
 }
 
+/* SECCION NOSOTROS */
 
+.seccion-contadoras{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4rem;
+    margin:10rem 10rem;
+}
+
+.flex-nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.flex-nosotros img{
+width:30rem;
+border-radius: 20rem;
+}
+
+.parrafo-nosotros{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    color: #2D383A;
+    width: 50vw;
+}
+
+.nosotros-nombre-contador{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #2D383A;
+}
+
+.titulo-nosotros{
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+text-transform: uppercase;
+    color:#2D383A;
+    padding-top: 5rem ;
+    
+}
+
+/* ESTILOS CON EL DISEÑO DEL ENTREGABLE ANTERIOR -- SE BORRARÁN, SOLO LOS DEJO PARA DEJAR UN POCO MAS VISUAL EL SITIO */
+
+.section-servicios {
+    padding-top: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.tabla-pag-servicios {
+
+    background-color: white;
+    margin-top: 3rem;
+    border-collapse: collapse;
+}
+
+.tabla-pag-servicios th,
+.tabla-pag-servicios td {
+
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.tabla-pag-servicios th {
+    background-color: grey;
+    color: white;
+}
+.section-servicios {
+    padding-top: 10rem;
+    padding-bottom: 5REM;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* SECCION NOTICIAS */
+
+
+.imagen-construccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECCION CONTACTO */
+
+.section-contacto{
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contacto-titulo{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #2D383A;
+}
+.legend{
+    padding-bottom: 3rem;
+}
+
+.contacto-input{
+border-style: solid botto;
+    background: transparent;
+    outline: none
+}

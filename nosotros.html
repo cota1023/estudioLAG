@@ -5,72 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="styles/estilos.css">
+    <title>Nosotros - Estudio LAG</title>
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;500;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <header class="header-banner">
+    <div class="contenedor-principal">
+        <header class="header">
+            <nav class="header__navbar">
+                <a href="index.html"><img class="header__navbar-logo" src="./img/logo.png" alt="logo"></a>
+                <ul class="header__navbar-menu">
+                    <li class="header__navbar-menu-elemento"><a href="index.html">inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="noticias.html">Últimas noticias</a></li>
+                    <li><a href="clientes.html">Emprendedores</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Sección 1 - Imagen -->
+        <section>
+            <div class="contenido-seccion1">
+                <p class="contenido-seccion1__texto animate__animated animate__fadeInLeft">Estudio Contable LAG</p>
+                <p class="contenido-seccion1__texto2 animate__animated animate__fadeInRight">Consultas Online - Atención Personalizada</p>
+            </div>
+        </section>
+        <!-- Sección 2 - Contadoras -->
+        <H2 class="titulo-nosotros animate__animated animate__zoomIn">el equipo</H2>
+        <section class="seccion-contadoras">
+            <div class="flex-nosotros">
+                <img src="./img/contadora1.jpg" alt="contadora" class="imagen-nosotros">
+                
+                <p class="parrafo-nosotros"><span class="nosotros-nombre-contador">Nombre Contadora 1</span> <br><br> ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, rerum facilis ea molestias aliquam iusto nobis blanditiis vel cum nam corporis? Saepe iusto dolorem consequuntur! Delectus quibusdam consectetur temporibus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis, dolor repellat sequi iure animi velit impedit nam dolorem, facere asperiores repudiandae quos, magnam eius totam molestias amet est officia.</p>
+            </div>
+            <div class="flex-nosotros">
+                <p class="parrafo-nosotros"><span class="nosotros-nombre-contador">Nombre Contadora 2</span> <br><br> ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, rerum facilis ea molestias aliquam iusto nobis blanditiis vel cum nam corporis? Saepe iusto dolorem consequuntur! Delectus quibusdam consectetur temporibus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis, dolor repellat sequi iure animi velit impedit nam dolorem, facere asperiores repudiandae quos, magnam eius totam molestias amet est officia.</p>
+                <img src="./img/contadora2.jpg" alt="contadora" class="imagen-nosotros">
 
-        <nav class="header-banner__navbar">
-            <a href="index.html"><img class="header-banner__navbar--logo" src="./img/logo.png" alt="logo"></a>
-            <ul class="header-banner__navbar--principal">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="noticias.html">Últimas noticias</a></li>
-                <li><a href="clientes.html">Emprendedores</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            </div>
+            <div class="flex-nosotros">
+                <img src="./img/contadora3.jpg" alt="contadora" class="imagen-nosotros">
+                <p class="parrafo-nosotros"><span class="nosotros-nombre-contador">Nombre Contadora 3</span> <br><br> ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, rerum facilis ea molestias aliquam iusto nobis blanditiis vel cum nam corporis? Saepe iusto dolorem consequuntur! Delectus quibusdam consectetur temporibus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis, dolor repellat sequi iure animi velit impedit nam dolorem, facere asperiores repudiandae quos, magnam eius totam molestias amet est officia.</p>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <h2 class="footer_titulo">Contactanos</h2>
+
+        <div class="footer-contacto">
+            <ul class="footer-contacto__ul">
+                <li class="footer-contacto__li">
+                    <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i>
+                        Instagram</a>
+                    <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i>
+                        Facebook</i></a>
+                    <a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.whatsapp.com" target="blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </li>
             </ul>
-        </nav>
-
-        <div class="contenedor-principal">
-            <p class="contenedor-principal__texto">Estudio Contable LAG</p>
-            <p class="contenedor-principal__texto2">Consultas Online - Atención Personalizada</p>
         </div>
 
-        <h2 class="titulo1-nosotros">SOBRE NOSOTROS</h2>
+        <p class="footer-web">www.estudiocontablelag.com.ar </p>
+        <p class="footer-derechos">Estudio Contable LAG. Todos los derechos reservados. 2021 </p>
 
-    </header>
-    <section>
-        <div class="flex-nosotros">
-            <img src="./img/contadora1.jpg" alt="contadora" class="imagen-nosotros">
-            
-            <p class="parrafo-nosotros"><span class="nosotros-nombre-contador">Nombre Contadora 1</span> <br><br> ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, rerum facilis ea molestias aliquam iusto nobis blanditiis vel cum nam corporis? Saepe iusto dolorem consequuntur! Delectus quibusdam consectetur temporibus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis, dolor repellat sequi iure animi velit impedit nam dolorem, facere asperiores repudiandae quos, magnam eius totam molestias amet est officia.</p>
-        </div>
-        <div class="flex-nosotros">
-            <p class="parrafo-nosotros"><span class="nosotros-nombre-contador">Cra. Gilda</span> <br><br> ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, rerum facilis ea molestias aliquam iusto nobis blanditiis vel cum nam corporis? Saepe iusto dolorem consequuntur! Delectus quibusdam consectetur temporibus vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa debitis, dolor repellat sequi iure animi velit impedit nam dolorem, facere asperiores repudiandae quos, magnam eius totam molestias amet est officia.</p>
-            <img src="./img/gilda.jpg" alt="contadora" class="imagen-nosotros">
-            
-
-        </div>
-    </section>
-        <!--Footer-->
-        <footer class="footer-contact">
-            <h2 class="subt">Contactanos</H3>
-    
-                <div class="footer-contact__div">
-                    <ul class="footer-contact__ul">
-                        <li class="footer-contact__li">
-                            <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i>
-                                Instagram</a>
-                            <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i>
-                                Facebook</i></a>
-                            <a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin"></i> Linkedin</a>
-                            <a href="https://www.whatsapp.com" target="blank"><i class="fab fa-whatsapp"></i></i>
-                                WhatsApp</a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <p class="footer-derechos">Estudio Contable LAG. Todos los derechos reservados. 2021</p>
-    
-        </footer>
+    </footer>
+    </div>
 </body>
 
 </html>
