@@ -33,6 +33,7 @@
 
 .header__navbar-logo {
     width: 8rem;
+    height: 100%;
 }
 
 .header__navbar-menu {
@@ -67,6 +68,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+.header__navbar a{
+height: 8rem;
+
+}
+
+
 
 
 
