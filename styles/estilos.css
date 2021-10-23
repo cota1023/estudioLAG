@@ -9,9 +9,9 @@
     display: grid;
     background-color: white;
     grid-template-columns: 1fr;
-    grid-template-areas:    "header"
-                            "contenido"
-                            "footer";
+    grid-template-areas: "header"
+        "contenido"
+        "footer";
 
 }
 
@@ -60,7 +60,7 @@
 
 }
 
-.header__navbar-menu li a{
+.header__navbar-menu li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -69,8 +69,8 @@
 
 }
 
-.header__navbar a{
-height: 8rem;
+.header__navbar a {
+    height: 8rem;
 
 }
 
@@ -85,10 +85,11 @@ height: 8rem;
     flex-direction: column;
     background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
-    background-position:center center;
+    background-position: center center;
     background-size: cover;
     /* background-attachment: fixed; */
 }
+
 .contenedor-principal .contenido-seccion2 {
     grid-column-start: contenido;
     grid-column-end: contenido;
@@ -97,9 +98,10 @@ height: 8rem;
     margin-top: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 3rem;
-    background-color:white;
+    background-color: white;
     padding-left: 5rem;
     padding-right: 5rem;
+    align-items: top;
 }
 
 .contenedor-principal .contenido-seccion3 {
@@ -115,6 +117,7 @@ height: 8rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
 .contenedor-principal .footer {
     background-color: yellowgreen;
     grid-column-start: footer;
@@ -132,43 +135,47 @@ height: 8rem;
     font-weight: bold;
 }
 
-.contenido-seccion1__texto2{
+.contenido-seccion1__texto2 {
     color: whitesmoke;
     font-size: 2rem;
     margin-top: 2rem;
-    margin-bottom: 4rem ;
+    margin-bottom: 4rem;
     text-align: center;
     text-transform: uppercase;
     /* text-shadow: -2px -2px 1px #4A4C4D; */
     font-weight: bold;
 }
 
-.tarjetas{
-background-color: white;
-display: flex;
-flex-direction: column;
-justify-content:space-between;
-padding: 4rem;
-align-items: center;
+.tarjetas {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
 }
 
-.contenido-seccion2__img{
+.contenido-seccion2__img {
     width: 15rem;
     padding-top: 5rem;
-    text-align: center;
-    
+    height: 15rem;
+
 }
-.contenido-seccion2__titulo, .contenido-seccion3__titulo{
+
+.contenido-seccion2__titulo,
+.contenido-seccion3__titulo {
     text-transform: uppercase;
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
     padding-top: 2rem;
     text-align: center;
 }
-.contenido-seccion2__texto, .contenido-seccion3__texto{
-text-align: justify;
-padding-top: 2rem;
-padding-bottom: 2rem;
+
+.contenido-seccion2__texto,
+.contenido-seccion3__texto {
+    text-align: justify;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .button-tabla {
@@ -183,34 +190,35 @@ padding-bottom: 2rem;
 }
 
 .button-tabla:hover {
-transform: scale(1.5,1.5);
-background-color: #B81C04;
+    transform: scale(1.5, 1.5);
+    background-color: #B81C04;
 
 }
-.button-tabla a{
+
+.button-tabla a {
     text-decoration: none;
     color: white;
 }
 
-.titulo-seccion3{
+.titulo-seccion3 {
     font-weight: bold;
     text-align: center;
     font-size: 4rem;
     padding-top: 8rem;
-    color:black;
+    color: black;
 
 }
 
 
 /* FOOTER */
 
-.footer{
-    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c );
+.footer {
+    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c);
     display: flex;
     flex-direction: column;
 }
 
-.footer_titulo{
+.footer_titulo {
     padding-top: 3rem;
     padding-left: 3rem;
     align-self: flex-start;
@@ -219,22 +227,22 @@ background-color: #B81C04;
     color: whitesmoke;
 }
 
-.footer-contacto__li a{
+.footer-contacto__li a {
     text-decoration: none;
     font-size: 1rem;
     padding-right: 1rem;
-    padding-left:3rem;
-    color:whitesmoke;
+    padding-left: 3rem;
+    color: whitesmoke;
 }
 
-.footer-derechos{
+.footer-derechos {
     text-align: center;
     font-size: small;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
-.footer-web{
+.footer-web {
     text-align: center;
     font-size: small;
     padding-top: 4rem;
@@ -242,46 +250,46 @@ background-color: #B81C04;
 
 /* SECCION NOSOTROS */
 
-.seccion-contadoras{
+.seccion-contadoras {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 4rem;
-    margin:10rem 10rem;
+    margin: 10rem 10rem;
 }
 
-.flex-nosotros{
+.flex-nosotros {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 
-.flex-nosotros img{
-width:30rem;
-border-radius: 20rem;
+.flex-nosotros img {
+    width: 30rem;
+    border-radius: 20rem;
 }
 
-.parrafo-nosotros{
+.parrafo-nosotros {
     padding-left: 3rem;
     font-size: 1.5rem;
     color: #2D383A;
     width: 50vw;
 }
 
-.nosotros-nombre-contador{
+.nosotros-nombre-contador {
     font-weight: bold;
     font-size: 3rem;
     color: #2D383A;
 }
 
-.titulo-nosotros{
+.titulo-nosotros {
     font-weight: bold;
     text-align: center;
     font-size: 4rem;
-text-transform: uppercase;
-    color:#2D383A;
-    padding-top: 5rem ;
-    
+    text-transform: uppercase;
+    color: #2D383A;
+    padding-top: 5rem;
+
 }
 
 /* ESTILOS CON EL DISEÑO DEL ENTREGABLE ANTERIOR -- SE BORRARÁN, SOLO LOS DEJO PARA DEJAR UN POCO MAS VISUAL EL SITIO */
@@ -310,6 +318,7 @@ text-transform: uppercase;
     background-color: grey;
     color: white;
 }
+
 .section-servicios {
     padding-top: 10rem;
     padding-bottom: 5REM;
@@ -320,7 +329,7 @@ text-transform: uppercase;
 /* SECCION NOTICIAS */
 
 
-.imagen-construccion{
+.imagen-construccion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,24 +337,25 @@ text-transform: uppercase;
 
 /* SECCION CONTACTO */
 
-.section-contacto{
+.section-contacto {
     margin: auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-.contacto-titulo{
+.contacto-titulo {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 4rem;
     color: #2D383A;
 }
-.legend{
+
+.legend {
     padding-bottom: 3rem;
 }
 
-.contacto-input{
-border-style: solid botto;
+.contacto-input {
+    border-style: solid botto;
     background: transparent;
     outline: none
 }
