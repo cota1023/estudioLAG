@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo Index</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Wow animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="./styles/custom.css">
 </head>
@@ -50,46 +56,82 @@
     </nav>
 
     <header class="header">
-        <div class="masthead-subheading text-uppercase">Bienvenidos a Estudio Contable </div>        
-        <div class="masthead-heading text-uppercase">LAG</div>
-        <div class="masthead-subheading2 text-uppercase">Consultas Online - Atención Personalizada </div>  
+        <div class="masthead-subheading text-uppercase
+        animate__animated animate__zoomIn">Bienvenidos a Estudio Contable </div>
+        <div class="masthead-heading text-uppercase
+        animate__animated animate__zoomIn">LAG</div>
+        <div class="masthead-subheading2 text-uppercase
+        animate__animated animate__slideInRight animate__delay-2s">Consultas Online - Atención Personalizada </div>
         </div>
     </header>
-    
-    <section class="mt-3">
-        <div class="contenido-seccion2">
-            <div class="tarjetas">
-                <img src="./img/calculadora.png" alt="calculadora" class="contenido-seccion2__img">
-                <p class="contenido-seccion2__titulo">Asesoramiento Contable-Impositivo</p>
-                <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                        información</a></button>
+    <section>
+        <div class="container mt-5">
+            <div class="container pt-5 pb-5">
+                <h2 class="text-uppercase text-center titulo-principal">Nuestros Servicios</h2>
             </div>
-            <div class="tarjetas">
-                <img src="./img/agendas.png" alt="agendas" class="contenido-seccion2__img">
-                <p class="contenido-seccion2__titulo">Vencimientos</p>
-                <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                        información</a></button>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-5">
+                <div class="col">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/agendas.png" alt="Agenda">
+                        <div class="card-body justify-content-center">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Vencimientos</h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Nam ex, id alias veniam, maxime sed eaque voluptatum, eveniet quae blanditiis
+                                dolore sunt animi vitae! Sequi aspernatur iste porro eaque id.</p>
+                            <a href="#" class="btn btn-secondary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/calculadora.png" alt="Agenda">
+                        <div class="card-body">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Asesoramiento integral</h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci ratione!
+                            </p>
+                            <a href="#" class="btn btn-secondary ">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/trabajo.png" alt="Agenda">
+                        <div class="card-body">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Ámbito Laboral</h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci ratione!
+                            </p>
+                            <a href="#" class="btn btn-secondary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="tarjetas">
-                <img src="./img/trabajo.png" alt="trabajo" class="contenido-seccion2__img">
-                <p class="contenido-seccion2__titulo">Ámbito Laboral</p>
-                <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                        información</a></button>
-            </div>
-        </div>
     </section>
+
+    <footer class="footer">
+        <h2 class="footer_titulo">Contactanos</h2>
+
+        <div class="footer-contacto">
+            <ul class="footer-contacto__ul">
+                <li class="footer-contacto__li">
+                    <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i>
+                        Instagram</a>
+                    <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i>
+                        Facebook</i></a>
+                    <a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.whatsapp.com" target="blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="footer-web">www.estudiocontablelag.com.ar </p>
+        <p class="footer-derechos">Estudio Contable LAG. Todos los derechos reservados. 2021 </p>
+
+    </footer>
+
 
 
 

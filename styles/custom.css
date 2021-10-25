@@ -12,18 +12,21 @@
     border: none;
     background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Yaldevi', sans-serif;
 }
 
 #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: #4E4E50;
+    background-color: #31363A;
 }
 
 /* Header */
 
 .header {
-    background-image: url("../img/navbar.jpg");
+    background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -70,4 +73,62 @@
     margin-bottom: 4rem;
     color: whitesmoke;
     position: relative;
+}
+
+/* CONTENIDO */
+
+.titulo-principal {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #31363A;
+}
+
+.img-tarjeta {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* FOOTER */
+
+.footer {
+    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_titulo {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    align-self: flex-start;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.footer-contacto__li a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding-right: 1rem;
+    padding-left: 3rem;
+    color: whitesmoke;
+}
+
+.footer-derechos {
+    text-align: center;
+    font-size: small;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-web {
+    text-align: center;
+    font-size: small;
+    padding-top: 4rem;
+}
+
+/* Animate */
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 3s;
 }
