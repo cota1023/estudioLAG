@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo Index</title>
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;500;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-shrink" id="mainNav">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-shrink" id="mainNav">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="navbar-img" src="./img/logook.png" alt="logo"></a>
@@ -55,6 +56,8 @@
         </div>
     </nav>
 
+    <!-- HEADER -->
+
     <header class="header">
         <div class="masthead-subheading text-uppercase
         animate__animated animate__zoomIn">Bienvenidos a Estudio Contable </div>
@@ -64,53 +67,118 @@
         animate__animated animate__slideInRight animate__delay-2s">Consultas Online - Atención Personalizada </div>
         </div>
     </header>
-    <section>
+
+    <!-- SECCION 1 -->
+    <section class="cont-principal-1">
+
         <div class="container mt-5">
             <div class="container pt-5 pb-5">
-                <h2 class="text-uppercase text-center titulo-principal">Nuestros Servicios</h2>
+                <h2 class="cont-principal-1__titulo">Nuestros Servicios</h2>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-5">
-                <div class="col">
+
+            <div class="row g-3 pt-5">
+                <div class="col col-12 col-md-6 col-lg-4">
                     <div class="card border-0 align-items-center">
                         <img class="card-img-top img-tarjeta" src="./img/agendas.png" alt="Agenda">
                         <div class="card-body justify-content-center">
                             <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Vencimientos</h5>
-                            <p class="card-text pt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <p class="card-text pt-3 text-justify">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Nam ex, id alias veniam, maxime sed eaque voluptatum, eveniet quae blanditiis
                                 dolore sunt animi vitae! Sequi aspernatur iste porro eaque id.</p>
                             <a href="#" class="btn btn-secondary">Mas información</a>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-12 col-md-6 col-lg-4">
                     <div class="card border-0 align-items-center">
                         <img class="card-img-top img-tarjeta" src="./img/calculadora.png" alt="Agenda">
                         <div class="card-body">
-                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Asesoramiento integral</h5>
-                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Asesoramiento integral
+                            </h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
                                 elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
-                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci ratione!
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci
+                                ratione!
                             </p>
                             <a href="#" class="btn btn-secondary ">Mas información</a>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-12 col-md-6 col-lg-4">
                     <div class="card border-0 align-items-center">
                         <img class="card-img-top img-tarjeta" src="./img/trabajo.png" alt="Agenda">
                         <div class="card-body">
                             <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Ámbito Laboral</h5>
-                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
                                 elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
-                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci ratione!
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci
+                                ratione!
                             </p>
-                            <a href="#" class="btn btn-secondary">Mas información</a>
+                            <div class="container text-center">
+                                <a href="#" class="btn btn-secondary">Mas información</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+    <!-- SECCION 2 -->
+    <section class="cont-principal-2 pb-5">
+        <div class="container mt-5">
+            <div class="container pt-5 pb-5">
+                <h2 class="cont-principal-2__titulo pt-5">EL EQUIPO</h2>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col col-12 col-md-6">
+                        <div class="container">
+                            <p class="cont-principal-2__texto">Somos un equipo compuesto por profesionales... Lorem
+                                ipsum
+                                dolor
+                                sit amet consectetur adipisicing elit. Iusto, molestias. Aliquam porro quia a non
+                                doloremque!
+                                Voluptas molestiae commodi impedit accusamus atque qui ut ipsum optio, praesentium quae
+                                fugiat
+                                assumenda.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quis officia inventore
+                                debitis
+                                sit, eaque incidunt quisquam. Ducimus, dolorem, dicta animi adipisci fuga perspiciatis
+                                sapiente
+                                magni quaerat ipsa repellendus quisquam.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum quod sed odit
+                                ut,
+                                error cupiditate mollitia ducimus accusamus veniam sit odio beatae nesciunt earum
+                                similique
+                                ipsa
+                                iste aliquid placeat?
+                            </p>
+                            <div class="pt-3 pb-3">
+                                <a class="btn btn-light text-uppercase" href="./nosotros.html">ConocÉ NUESTRO EQUIPO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <img class="img-fluid rounded-2" src="./img/equipo.jpg" alt="equipo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- SECCION 3 -->
+        <section class="cont-principal-3">
+            <div class="container mt-5">
+                <div class="container pt-5 pb-5">
+                    <h2 class="cont-principal-3__titulo pt-5">EMPRENDEDORES</h2>
+                </div>
+                <div class="container">
 
+                </div>
+            </div>
+        </section>
     <footer class="footer">
         <h2 class="footer_titulo">Contactanos</h2>
 

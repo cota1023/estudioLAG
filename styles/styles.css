@@ -1,0 +1,49 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cont-principal-1__titulo {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #2D383A;
+}
+
+.cont-principal-2 {
+  background-color: #4E4E50;
+}
+
+.cont-principal-2 a {
+  border-radius: 3rem;
+}
+
+.cont-principal-2 a:hover {
+  color: #B81C04;
+}
+
+.cont-principal-2__titulo {
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+.cont-principal-2__texto {
+  color: whitesmoke;
+  font-weight: lighter;
+}
+
+.cont-principal-3 {
+  background-color: #B81C04;
+}
+
+.cont-principal-3 a {
+  border-radius: 3rem;
+}
+
+.cont-principal-3 a:hover {
+  color: #B81C04;
+}
+/*# sourceMappingURL=styles.css.map */

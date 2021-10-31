@@ -1,0 +1,65 @@
+// Paleta de colores
+
+$gris-2: #2D383A;
+$gris-3: #4E4E50;
+$celeste-1: #A3BDC2;
+$rojo-1: #B81C04;
+$gris-1: #31363A;
+$blanco-1: whitesmoke;
+
+// Generales
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+// SECCIÓN PRINCIPAL
+
+.cont-principal-1__titulo {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: $gris-2;
+
+}
+
+.cont-principal-2 {
+    background-color: $gris-3;
+
+    a {
+        border-radius: 3rem;
+    }
+
+    a:hover {
+        color: $rojo-1;
+    }
+
+}
+
+.cont-principal-2__titulo {
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: $blanco-1;
+
+}
+
+.cont-principal-2__texto {
+    color: $blanco-1;
+    font-weight: lighter;
+}
+
+.cont-principal-3 {
+    background-color: $rojo-1;
+
+    a {
+        border-radius: 3rem;
+    }
+
+    a:hover {
+        color: $rojo-1;
+    }
+
+}
