@@ -5,120 +5,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio Contable LAG</title>
-    <link rel="stylesheet" href="./styles/estilos.css">
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <title>Nuevo Index</title>
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Wow animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-    <div class="contenedor-principal">
-        <header class="header">
-            <nav class="header__navbar">
-                <a href="index.html"><img class="header__navbar-logo" src="./img/logo.png" alt="logo"></a>
-                <ul class="header__navbar-menu">
-                    <li class="header__navbar-menu-elemento"><a href="index.html">inicio</a></li>
-                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="noticias.html">Últimas noticias</a></li>
-                    <li><a href="clientes.html">Emprendedores</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-shrink" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-img" src="./img/logook.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EMPRENDEDORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <!-- Sección 1 - Imagen -->
-        <section>
-            <div class="contenido-seccion1">
-                <p class="contenido-seccion1__texto animate__animated animate__fadeInLeft">Estudio Contable LAG</p>
-                <p class="contenido-seccion1__texto2 animate__animated animate__fadeInRight">Consultas Online - Atención
-                    Personalizada</p>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="masthead-subheading text-uppercase
+        animate__animated animate__zoomIn">Bienvenidos a Estudio Contable </div>
+        <div class="masthead-heading text-uppercase
+        animate__animated animate__zoomIn">LAG</div>
+        <div class="masthead-subheading2 text-uppercase
+        animate__animated animate__slideInRight animate__delay-2s">Consultas Online - Atención Personalizada </div>
+        </div>
+    </header>
+
+    <!-- SECCION 1 -->
+    <section class="cont-principal-1">
+
+        <div class="container mt-5">
+            <div class="container pt-5 pb-5">
+                <h2 class="cont-principal-1__titulo">Nuestros Servicios</h2>
+            </div>
+
+            <div class="row g-3 pt-5">
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/agendas.png" alt="Agenda">
+                        <div class="card-body justify-content-center">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Vencimientos</h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Nam ex, id alias veniam, maxime sed eaque voluptatum, eveniet quae blanditiis
+                                dolore sunt animi vitae! Sequi aspernatur iste porro eaque id.</p>
+                            <a href="#" class="btn btn-secondary">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/calculadora.png" alt="Agenda">
+                        <div class="card-body">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Asesoramiento integral
+                            </h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci
+                                ratione!
+                            </p>
+                            <a href="#" class="btn btn-secondary ">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 align-items-center">
+                        <img class="card-img-top img-tarjeta" src="./img/trabajo.png" alt="Agenda">
+                        <div class="card-body">
+                            <h5 class="card-title pt-4 text-center text-uppercase fw-bold">Ámbito Laboral</h5>
+                            <p class="card-text pt-3 text-justify">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit. Reiciendis perferendis autem nisi aperiam quidem deleniti totam ea veritatis
+                                dolores similique. Ex dignissimos quia, amet sequi qui iusto placeat adipisci
+                                ratione!
+                            </p>
+                            <div class="container text-center">
+                                <a href="#" class="btn btn-secondary">Mas información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION 2 -->
+    <section class="cont-principal-2 pb-5">
+        <div class="container mt-5">
+            <div class="container pt-5 pb-5">
+                <h2 class="cont-principal-2__titulo pt-5">EL EQUIPO</h2>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col col-12 col-md-6">
+                        <div class="container">
+                            <p class="cont-principal-2__texto">Somos un equipo compuesto por profesionales... Lorem
+                                ipsum
+                                dolor
+                                sit amet consectetur adipisicing elit. Iusto, molestias. Aliquam porro quia a non
+                                doloremque!
+                                Voluptas molestiae commodi impedit accusamus atque qui ut ipsum optio, praesentium quae
+                                fugiat
+                                assumenda.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quis officia inventore
+                                debitis
+                                sit, eaque incidunt quisquam. Ducimus, dolorem, dicta animi adipisci fuga perspiciatis
+                                sapiente
+                                magni quaerat ipsa repellendus quisquam.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laborum quod sed odit
+                                ut,
+                                error cupiditate mollitia ducimus accusamus veniam sit odio beatae nesciunt earum
+                                similique
+                                ipsa
+                                iste aliquid placeat?
+                            </p>
+                            <div class="pt-3 pb-3">
+                                <a class="btn btn-light text-uppercase" href="./nosotros.html">ConocÉ NUESTRO EQUIPO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <img class="img-fluid rounded-2" src="./img/equipo.jpg" alt="equipo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- SECCION 3 -->
+        <section class="cont-principal-3">
+            <div class="container mt-5">
+                <div class="container pt-5 pb-5">
+                    <h2 class="cont-principal-3__titulo pt-5">EMPRENDEDORES</h2>
+                </div>
+                <div class="container">
+
+                </div>
             </div>
         </section>
-        <!-- Sección 2 - Cards -->
-        <section>
-            <div class="contenido-seccion2">
-                <div class="tarjetas">
-                    <img src="./img/calculadora.png" alt="calculadora" class="contenido-seccion2__img">
-                    <p class="contenido-seccion2__titulo">Asesoramiento Contable-Impositivo</p>
-                    <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                        assumenda
-                        ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                        corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                    <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                            información</a></button>
-                </div>
-                <div class="tarjetas">
-                    <img src="./img/agendas.png" alt="agendas" class="contenido-seccion2__img">
-                    <p class="contenido-seccion2__titulo">Vencimientos</p>
-                    <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                        assumenda
-                        ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                        corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                    <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                            información</a></button>
-                </div>
-                <div class="tarjetas">
-                    <img src="./img/trabajo.png" alt="trabajo" class="contenido-seccion2__img">
-                    <p class="contenido-seccion2__titulo">Ámbito Laboral</p>
-                    <p class="contenido-seccion2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                        assumenda
-                        ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                        corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                    <button class="button-tabla"><a href="servicios.html" class="boton-link">Mas
-                            información</a></button>
-                </div>
-            </div>
-        </section>
-        <!-- Sección 3 - Noticias -->
-        <h2 class="titulo-seccion3">NOVEDADES IMPOSITIVAS</h2>
-        <section class="contenido-seccion3">
-            <div class="tarjetas">
-                <img src="./img/noticia1.jpg" alt="noticia1" class="contenido-seccion2__img">
-                <h3 class="contenido-seccion2__titulo"><a
-                        href="https://www.infobae.com/politica/2021/09/28/allanaron-la-afip-de-santiago-del-estero-cobrabran-200-mil-para-regularizar-deudas/"
-                        target="_blank">Allanaron la AFIP de Santiago del Estero: cobraban $200 mil para
-                        “regularizar” deudas </a></h3>
-                <p class="contenido-seccion3__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a
-                        href="https://www.infobae.com/politica/2021/09/28/allanaron-la-afip-de-santiago-del-estero-cobrabran-200-mil-para-regularizar-deudas/"
-                        target="_blank" class="boton-link">Leer mas...</a></button>
-            </div>
-            <div class="tarjetas">
-                <img src="./img/noticia2.jpg" alt="agendas" class="contenido-seccion2__img">
-                <h3 class="contenido-seccion3__titulo"><a
-                        href="https://www.telam.com.ar/notas/202109/570238-afip-prorroga-moratoria-monotributistas-alivio-fiscal.html"
-                        target="_blank">La AFIP extendió hasta el 30 de noviembre el plazo para adherir a la
-                        moratoria de monotributistas</a></h3>
-                <p class="contenido-seccion3__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a
-                        href="https://www.telam.com.ar/notas/202109/570238-afip-prorroga-moratoria-monotributistas-alivio-fiscal.html"
-                        target="_blank" class="boton-link">Leer mas...</a></button>
-            </div>
-            <div class="tarjetas">
-                <img src="./img/noticia3.jpg" alt="trabajo" class="contenido-seccion2__img">
-                <h3 class="contenido-seccion3__titulo"><a
-                        href="https://www.tycsports.com/interes-general/anses-pagara-bonos-jubilados-octubre-id376722.html"
-                        target="_blank">ANSES pagará bonos a jubilados: cómo cobrarlos en octubre 2021</a></h3>
-                <p class="contenido-seccion3__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    assumenda
-                    ut explicabo corporis aliquam, omnis numquam voluptas asperiores nisi. Adipisci ducimus
-                    corrupti sequi officia esse unde aut repellat impedit quis?</p>
-                <button class="button-tabla"><a
-                        href="https://www.tycsports.com/interes-general/anses-pagara-bonos-jubilados-octubre-id376722.html"
-                        target="_blank" class="boton-link">Leer mas...</a></button>
-            </div>
-    </div>
     <footer class="footer">
         <h2 class="footer_titulo">Contactanos</h2>
 
@@ -139,7 +199,15 @@
         <p class="footer-derechos">Estudio Contable LAG. Todos los derechos reservados. 2021 </p>
 
     </footer>
-    </div>
+
+
+
+
+    <!-- JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
