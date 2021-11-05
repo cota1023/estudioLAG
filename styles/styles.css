@@ -35,6 +35,10 @@
   font-weight: lighter;
 }
 
+.cont-principal-2__boton {
+  text-transform: uppercase;
+}
+
 .cont-principal-3 {
   background-color: #B81C04;
 }
@@ -45,5 +49,33 @@
 
 .cont-principal-3 a:hover {
   color: #B81C04;
+}
+
+.cont-principal-3__titulo {
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+.footer__titulo {
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+.footer__item,
+.footer__seguinos,
+.footer__contacto {
+  color: whitesmoke;
+}
+
+.footer__web,
+.footer__derechos {
+  font-weight: lighter;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=styles.css.map */
