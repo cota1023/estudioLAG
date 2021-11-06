@@ -1,10 +1,12 @@
 @import "disenios";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 // Generales
 
 * {
     font-family: 'Roboto', sans-serif;
 }
+
 
 // SECCIÓN PRINCIPAL
 
@@ -129,4 +131,18 @@
 //CONTACTO
 .contacto__labels{
     color: $gris-1;
+}
+
+// EMPRENDEDORES
+
+.seccion-emprendedores{
+    background-color: $rojo-1;
+    h2{
+        font-size: $sizeTitulo;
+        color: $blanco-1;
+    }
+    p, li{
+        color: $blanco-1;
+    }
+    
 }

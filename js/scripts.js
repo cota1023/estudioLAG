@@ -1,8 +1,8 @@
 /*!
-* Start Bootstrap - Agency v7.0.10 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
+ * Start Bootstrap - Agency v7.0.10 (https://startbootstrap.com/theme/agency)
+ * Copyright 2013-2021 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+ */
 //
 // Scripts
 // 
@@ -10,17 +10,39 @@
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
+    // var navbarShrink = function () {
+    //     const navbarCollapsible = document.body.querySelector('#mainNav');
+    //     if (!navbarCollapsible) {
+    //         return;
+    //     }
+    //     if (window.scrollY === 0) {
+    //         navbarCollapsible.classList.remove('navbar-shrink')
+    //     } else {
+    //         navbarCollapsible.classList.add('navbar-shrink')
+    //     }
+
+    // };
+
+    // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
+        const navText = document.body.querySelectorAll('.nav-link');
+        console.log(navText)
         if (!navbarCollapsible) {
             return;
         }
         if (window.scrollY === 0) {
+            navText.forEach(link => {
+                link.classList.add('text-js');
+            })
             navbarCollapsible.classList.remove('navbar-shrink')
+
         } else {
+            navText.forEach(link => {
+                link.classList.remove('text-js');
+            })
             navbarCollapsible.classList.add('navbar-shrink')
         }
-
     };
 
     // Shrink the navbar 

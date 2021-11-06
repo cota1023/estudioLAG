@@ -25,15 +25,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-shrink" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="navbar-img" src="./img/logook.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars ms-1"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
@@ -48,10 +49,11 @@
                         <a class="nav-link" href="./noticias.html">NOTICIAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./clientes.html">EMPRENDEDORES</a>
+                        <a class="nav-link" href="./emprendedores.html">EMPRENDEDORES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
                 </ul>
 
             </div>
@@ -66,7 +68,6 @@
         animate__animated animate__zoomIn">LAG</div>
         <div class="masthead-subheading2 text-uppercase
         animate__animated animate__slideInRight animate__delay-2s">Consultas Online - Atención Personalizada </div>
-        </div>
     </header>
 
     <!-- Sección 1 - Formulario de Contacto -->
@@ -145,13 +146,13 @@
                     <div class="col-sm-10">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="M" id="mail" checked>
-                            <label class="form-check-label" for="flexCheckDefault">
+                            <label class="form-check-label" for="mail">
                                 Mail
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="T" id="telefono">
-                            <label class="form-check-label" for="flexCheckChecked">
+                            <label class="form-check-label" for="telefono">
                                 Teléfono
                             </label>
                         </div>

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/cota1023/estudioLAG/issues"
   },
-  "homepage": "https://github.com/cota1023/estudioLAG#readme"
+  "homepage": "https://github.com/cota1023/estudioLAG#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3"
+  }
 }
