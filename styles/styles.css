@@ -1,3 +1,8 @@
+.form-check-input:checked {
+  background-color: #B81C04;
+  border-color: whitesmoke;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -72,6 +77,10 @@
   color: whitesmoke;
 }
 
+.footer__item:hover {
+  color: #B81C04;
+}
+
 .footer__item,
 .footer__seguinos,
 .footer__contacto {
@@ -84,7 +93,7 @@
   color: whitesmoke;
 }
 
-.titulo-nosotros {
+.titulo-nosotros, .titulo-contacto {
   font-size: 4rem;
   color: #31363A;
   font-weight: bold;
@@ -106,5 +115,9 @@
   font-weight: bold;
   font-size: 3rem;
   color: #2D383A;
+}
+
+.contacto__labels {
+  color: #31363A;
 }
 /*# sourceMappingURL=styles.css.map */
