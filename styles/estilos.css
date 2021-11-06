@@ -212,11 +212,7 @@
 
 /* FOOTER */
 
-.footer {
-    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c);
-    display: flex;
-    flex-direction: column;
-}
+
 
 .footer_titulo {
     padding-top: 3rem;

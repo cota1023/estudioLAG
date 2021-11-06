@@ -1,11 +1,4 @@
-// Paleta de colores
-
-$gris-2: #2D383A;
-$gris-3: #4E4E50;
-$celeste-1: #A3BDC2;
-$rojo-1: #B81C04;
-$gris-1: #31363A;
-$blanco-1: whitesmoke;
+@import "disenios";
 
 // Generales
 
@@ -41,7 +34,7 @@ $blanco-1: whitesmoke;
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: $sizeTitulo;
     color: $blanco-1;
 
 }
@@ -78,11 +71,17 @@ $blanco-1: whitesmoke;
 
 }
 
+// FOOTER
+
+.footer{
+    background-image: linear-gradient(to top, #b1b1b1, #5c5c5c)
+}
+
 .footer__titulo {
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: $sizeTitulo;
     color: $blanco-1;
 
 }
@@ -97,4 +96,29 @@ $blanco-1: whitesmoke;
 .footer__derechos {
     font-weight: lighter;
     color: $blanco-1;
+}
+
+
+//NOSOTROS
+
+.titulo-nosotros{
+    font-size: $sizeTitulo;
+    color: $gris-1;
+    font-weight: bold;
+}
+
+.img-contadora{
+    width: 20rem;
+}
+.img-contadora2{
+    width: 0rem;
+}
+
+.parrafo-nosotros{
+    font-size: 1rem;
+    span{
+        font-weight: bold;
+        font-size: 3rem;
+        color: #2D383A;
+    }
 }

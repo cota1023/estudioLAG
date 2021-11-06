@@ -59,6 +59,11 @@
   color: whitesmoke;
 }
 
+.footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#b1b1b1), to(#5c5c5c));
+  background-image: linear-gradient(to top, #b1b1b1, #5c5c5c);
+}
+
 .footer__titulo {
   text-align: left;
   font-weight: bold;
@@ -77,5 +82,29 @@
 .footer__derechos {
   font-weight: lighter;
   color: whitesmoke;
+}
+
+.titulo-nosotros {
+  font-size: 4rem;
+  color: #31363A;
+  font-weight: bold;
+}
+
+.img-contadora {
+  width: 20rem;
+}
+
+.img-contadora2 {
+  width: 0rem;
+}
+
+.parrafo-nosotros {
+  font-size: 1rem;
+}
+
+.parrafo-nosotros span {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #2D383A;
 }
 /*# sourceMappingURL=styles.css.map */
