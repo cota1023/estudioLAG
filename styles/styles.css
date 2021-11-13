@@ -12096,4 +12096,19 @@ fieldset:disabled .btn {
 .seccion-emprendedores p, .seccion-emprendedores li {
   color: whitesmoke;
 }
+
+.servicios-titulo-1 {
+  font-size: 3rem;
+  color: #31363A;
+}
+
+.servicios-titulo-2 {
+  font-size: 1.5rem;
+  color: #31363A;
+}
+
+.servicios-lista {
+  text-decoration: none;
+  color: red;
+}
 /*# sourceMappingURL=styles.css.map */
