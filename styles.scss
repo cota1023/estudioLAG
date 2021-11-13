@@ -119,6 +119,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $blanco-1;
+    text-align: center;
 
 }
 
@@ -150,6 +151,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $blanco-1;
+    text-align: center;
 
 }
 
@@ -164,6 +166,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $blanco-1;
+    text-align: center;
 
 }
 
@@ -203,6 +206,8 @@
 
 .parrafo-nosotros {
     font-size: 1rem;
+    font-weight:normal;
+    text-align: justify;
 
     span {
         font-weight: bold;
@@ -222,7 +227,7 @@
     background-color: $rojo-1;
 
     h2 {
-        font-size: $sizeTitulo;
+        font-size: $sizeTitulo3;
         color: $blanco-1;
     }
 
@@ -292,21 +297,21 @@
 @media screen and(max-width: 3400px) {
 
     .servicios-titulo-2 {
-        font-size: $sizeTitulo2;
+        font-size: $sizeTitulo;
     }
 }
 
 @media screen and(max-width: 1200px) {
 
     .servicios-titulo-2 {
-        font-size: $sizeTitulo2;
+        font-size: $sizeTitulo;
     }
 }
 
 @media screen and(max-width: 992px) {
 
     .servicios-titulo-2 {
-        font-size: $sizeTitulo2;
+        font-size: $sizeTitulo;
     }
 }
 
@@ -324,3 +329,26 @@
     
     }
 }
+
+// NEWS
+
+.news-p{
+    background-color: rgba(184, 28, 4, 0.6);
+    border-radius: 0.5rem;
+}
+
+.news-h5{
+    background-color: rgba(49, 54, 58, 0.6);
+    border-radius: 0.5rem;
+    a{
+        text-decoration: none;
+        color: $blanco-1
+    }
+}
+
+.news-icon{
+    color: rgb(214, 187, 35);
+    padding: 1rem;
+}
+
+//newsletter

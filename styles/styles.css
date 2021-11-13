@@ -12064,6 +12064,7 @@ fieldset:disabled .btn {
   font-weight: bold;
   text-transform: uppercase;
   color: whitesmoke;
+  text-align: center;
 }
 
 .cont-principal-2__texto {
@@ -12092,6 +12093,7 @@ fieldset:disabled .btn {
   font-weight: bold;
   text-transform: uppercase;
   color: whitesmoke;
+  text-align: center;
 }
 
 .footer {
@@ -12104,6 +12106,7 @@ fieldset:disabled .btn {
   font-weight: bold;
   text-transform: uppercase;
   color: whitesmoke;
+  text-align: center;
 }
 
 .footer__item:hover {
@@ -12139,6 +12142,8 @@ fieldset:disabled .btn {
 
 .parrafo-nosotros {
   font-size: 1rem;
+  font-weight: normal;
+  text-align: justify;
 }
 
 .parrafo-nosotros span {
@@ -12156,7 +12161,7 @@ fieldset:disabled .btn {
 }
 
 .seccion-emprendedores h2, .seccion-emprendedores .h2 {
-  font-size: 1rem;
+  font-size: 3rem;
   color: whitesmoke;
 }
 
@@ -12217,19 +12222,19 @@ fieldset:disabled .btn {
 
 @media screen and (max-width: 3400px) {
   .servicios-titulo-2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .servicios-titulo-2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 992px) {
   .servicios-titulo-2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
@@ -12243,5 +12248,25 @@ fieldset:disabled .btn {
   .servicios-titulo-2 {
     font-size: 1rem;
   }
+}
+
+.news-p {
+  background-color: rgba(184, 28, 4, 0.6);
+  border-radius: 0.5rem;
+}
+
+.news-h5 {
+  background-color: rgba(49, 54, 58, 0.6);
+  border-radius: 0.5rem;
+}
+
+.news-h5 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.news-icon {
+  color: #d6bb23;
+  padding: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */
