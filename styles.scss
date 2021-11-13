@@ -197,16 +197,14 @@
 }
 
 .img-contadora {
-    width: 20rem;
+    width: ($widthContadoras /2);
 }
 
-.img-contadora2 {
-    width: 0rem;
-}
+
 
 .parrafo-nosotros {
     font-size: 1rem;
-    font-weight:normal;
+    font-weight: normal;
     text-align: justify;
 
     span {
@@ -240,10 +238,11 @@
 
 // SERVICIOS
 
-.servicios-titulo-1{
+.servicios-titulo-1 {
     color: $gris-1;
     font-weight: bold;
 }
+
 .servicios-titulo-2 {
     color: $gris-1;
     font-style: italic;
@@ -326,27 +325,28 @@
 
     .servicios-titulo-2 {
         font-size: $sizeTitulo;
-    
+
     }
 }
 
 // NEWS
 
-.news-p{
+.news-p {
     background-color: rgba(184, 28, 4, 0.6);
     border-radius: 0.5rem;
 }
 
-.news-h5{
+.news-h5 {
     background-color: rgba(49, 54, 58, 0.6);
     border-radius: 0.5rem;
-    a{
+
+    a {
         text-decoration: none;
         color: $blanco-1
     }
 }
 
-.news-icon{
+.news-icon {
     color: rgb(214, 187, 35);
     padding: 1rem;
 }
