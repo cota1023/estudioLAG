@@ -14,10 +14,92 @@
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 4rem;
     color: $gris-2;
-
 }
+
+@media screen and(max-width: 3400px) {
+
+    .cont-principal-1__titulo,
+    .cont-principal-2__titulo,
+    .footer__titulo {
+        font-size: $sizeTitulo6;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+
+    .cont-principal-1__titulo,
+    .cont-principal-2__titulo,
+    .footer__titulo {
+        font-size: $sizeTitulo6;
+    }
+}
+
+@media screen and(max-width: 992px) {
+
+    .cont-principal-1__titulo,
+    .cont-principal-2__titulo,
+    .footer__titulo {
+        font-size: $sizeTitulo5;
+    }
+}
+
+@media screen and(max-width: 768px) {
+
+    .cont-principal-1__titulo,
+    .cont-principal-2__titulo,
+    .footer__titulo {
+        font-size: $sizeTitulo4;
+    }
+}
+
+@media screen and(max-width: 576px) {
+
+    .cont-principal-1__titulo,
+    .cont-principal-2__titulo,
+    .footer__titulo {
+        font-size: $sizeTitulo3;
+    }
+}
+
+
+// Media especial para emprendedores
+@media screen and(max-width: 3400px) {
+
+    .cont-principal-3__titulo {
+        font-size: $sizeTitulo5;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+
+    .cont-principal-3__titulo {
+        font-size: $sizeTitulo5;
+    }
+}
+
+@media screen and(max-width: 992px) {
+
+    .cont-principal-3__titulo {
+        font-size: $sizeTitulo5;
+    }
+}
+
+@media screen and(max-width: 768px) {
+
+    .cont-principal-3__titulo {
+        font-size: $sizeTitulo4;
+    }
+}
+
+@media screen and(max-width: 576px) {
+
+    .cont-principal-3__titulo {
+        font-size: $sizeTitulo2;
+    }
+}
+
+
 
 .cont-principal-2 {
     background-color: $gris-3;
@@ -36,7 +118,6 @@
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: $sizeTitulo;
     color: $blanco-1;
 
 }
@@ -68,14 +149,13 @@
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 2.9rem;
     color: $blanco-1;
 
 }
 
 // FOOTER
 
-.footer{
+.footer {
     background-image: linear-gradient(to top, #b1b1b1, #5c5c5c)
 }
 
@@ -83,11 +163,11 @@
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: $sizeTitulo;
     color: $blanco-1;
 
 }
-.footer__item:hover{
+
+.footer__item:hover {
     color: $rojo-1;
 }
 
@@ -106,22 +186,25 @@
 
 //NOSOTROS
 
-.titulo-nosotros, .titulo-contacto{
+.titulo-nosotros,
+.titulo-contacto {
     font-size: $sizeTitulo;
     color: $gris-1;
     font-weight: bold;
 }
 
-.img-contadora{
+.img-contadora {
     width: 20rem;
 }
-.img-contadora2{
+
+.img-contadora2 {
     width: 0rem;
 }
 
-.parrafo-nosotros{
+.parrafo-nosotros {
     font-size: 1rem;
-    span{
+
+    span {
         font-weight: bold;
         font-size: 3rem;
         color: #2D383A;
@@ -129,36 +212,115 @@
 }
 
 //CONTACTO
-.contacto__labels{
+.contacto__labels {
     color: $gris-1;
 }
 
 // EMPRENDEDORES
 
-.seccion-emprendedores{
+.seccion-emprendedores {
     background-color: $rojo-1;
-    h2{
+
+    h2 {
         font-size: $sizeTitulo;
         color: $blanco-1;
     }
-    p, li{
+
+    p,
+    li {
         color: $blanco-1;
     }
-    
+
 }
 
 // SERVICIOS
 
 .servicios-titulo-1{
-    font-size: 3rem;
     color: $gris-1;
+    font-weight: bold;
 }
-.servicios-titulo-2{
-    font-size: 1.5rem;
+.servicios-titulo-2 {
     color: $gris-1;
+    font-style: italic;
 }
 
-.servicios-lista{
-    text-decoration: none;
-    color: red;
+.servicios-icono-lista {
+    color: $rojo-1;
+    padding-right: 1rem;
+}
+
+.list-group-item {
+    border: none;
+}
+
+@media screen and(max-width: 3400px) {
+
+    .servicios-titulo-1 {
+        font-size: $sizeTitulo3;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+
+    .servicios-titulo-1 {
+        font-size: $sizeTitulo3;
+    }
+}
+
+@media screen and(max-width: 992px) {
+
+    .servicios-titulo-1 {
+        font-size: $sizeTitulo3;
+    }
+}
+
+@media screen and(max-width: 768px) {
+
+    .servicios-titulo-1 {
+        font-size: $sizeTitulo3;
+    }
+}
+
+@media screen and(max-width: 576px) {
+
+    .servicios-titulo-1 {
+        font-size: $sizeTitulo2;
+        text-align: center;
+    }
+}
+
+@media screen and(max-width: 3400px) {
+
+    .servicios-titulo-2 {
+        font-size: $sizeTitulo2;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+
+    .servicios-titulo-2 {
+        font-size: $sizeTitulo2;
+    }
+}
+
+@media screen and(max-width: 992px) {
+
+    .servicios-titulo-2 {
+        font-size: $sizeTitulo2;
+    }
+}
+
+@media screen and(max-width: 768px) {
+
+    .servicios-titulo-2 {
+        font-size: $sizeTitulo;
+    }
+}
+
+@media screen and(max-width: 576px) {
+
+    .servicios-titulo-2 {
+        font-size: $sizeTitulo;
+    
+    }
 }

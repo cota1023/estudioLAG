@@ -9,15 +9,20 @@ $blanco-1: whitesmoke;
 
 // Font-Sizes
 
-$sizeTitulo: 4rem;
+$sizeTitulo: 1rem;
+$sizeTitulo2: 2rem;
+$sizeTitulo3: 3rem;
+$sizeTitulo4: 4rem;
+$sizeTitulo5: 5rem;
+$sizeTitulo6: 6rem;
 
 //Bootstrap personalizado
 
-.form-check-input:checked{
+.form-check-input:checked {
     background-color: $rojo-1;
-border-color: $blanco-1;
+    border-color: $blanco-1;
 }
 
-.text-js{
-    color: $blanco-1!important;
+.text-js {
+    color: $blanco-1 !important;
 }
