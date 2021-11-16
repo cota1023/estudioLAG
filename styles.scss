@@ -219,6 +219,12 @@
     color: $gris-1;
 }
 
+.form-check-input:checked {
+    background-color: $rojo-1;
+    border-color: $gris-1;
+}
+
+
 // EMPRENDEDORES
 
 .seccion-emprendedores {

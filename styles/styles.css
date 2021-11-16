@@ -12152,6 +12152,11 @@ fieldset:disabled .btn {
   color: #31363A;
 }
 
+.form-check-input:checked {
+  background-color: #B81C04;
+  border-color: #31363A;
+}
+
 .seccion-emprendedores {
   background-color: #B81C04;
 }
