@@ -12128,7 +12128,7 @@ fieldset:disabled .btn {
 .titulo-nosotros,
 .titulo-contacto {
   font-size: 1rem;
-  color: #31363A;
+  color: #636363;
   font-weight: bold;
 }
 
@@ -12149,12 +12149,12 @@ fieldset:disabled .btn {
 }
 
 .contacto__labels {
-  color: #31363A;
+  color: #636363;
 }
 
 .form-check-input:checked {
   background-color: #B81C04;
-  border-color: #31363A;
+  border-color: #636363;
 }
 
 .seccion-emprendedores {
@@ -12172,12 +12172,12 @@ fieldset:disabled .btn {
 }
 
 .servicios-titulo-1 {
-  color: #31363A;
+  color: #636363;
   font-weight: bold;
 }
 
 .servicios-titulo-2 {
-  color: #31363A;
+  color: #636363;
   font-style: italic;
 }
 

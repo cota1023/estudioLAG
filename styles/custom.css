@@ -78,6 +78,12 @@
     position: relative;
 }
 
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color:rgba(184, 28, 4, 0.8) ;
+    }
+}
+
 /* CONTENIDO */
 
 
